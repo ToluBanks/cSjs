@@ -20,20 +20,20 @@
         var Hamburger = new Object(); 
 
             // defining the variables  of the object 
-            Hamburger.buns= ["White","Whole Wheat","sesame","multi Grain", "egg-Braided","Onion"]; 
-            Hamburger.veg= ["Lettuce","Tomatoes","Onions","Mushrooms", "Egg Plant"]; 
-            Hamburger.cheese = ["swiss ","cheddar","mozzerlla","blue", "american","Appenzeller"]; ; 
+            Hamburger.buns= ["white","whole Wheat","sesame","multi Grain", "egg-Braided","onion"]; 
+            Hamburger.veg= ["lettuce","tomatoes","onions","mushrooms", "egg-plant"]; 
+            Hamburger.cheese = ["swiss ","cheddar","mozzerlla","blue", "american","appenzeller"]; ; 
             Hamburger.sauce = ["mayonnaise","ketchup","mustard", "southwest chipotle","barbeque","cream cheese"];
             Hamburger.meatPattie = ["chicken","beef","lamb", "quinoa","pork"];
             Hamburger.pattieNum = ["single","double","triple"]; ;
-            Hamburger.other= ["Pickles","Hot banana peppers","Olives","jalepenos", "Bell peppers"]; ;
+            Hamburger.other= ["pickles","hot banana peppers","olives","jalepenos", "bell peppers"]; ;
 
             Hamburger.blurb = function(){
-				output.textContent = 'The bun is' + Hamburger.buns[1] + ' with '
-             +  Hamburger.veg[1]+ ', on top you have some ' +
-				Hamburger.cheese[1] +' cheese with ' + Hamburger.pattieNum[1]+ ' '
-             + Hamburger.meatPattie[1] + ' pattie graciously complimented with some '
-              + Hamburger.sauce[1] + 'sauce, with some beautiful ' + Hamburger.other[1] +'. ';
+				output.textContent = 'The bun is a tremendous' + Hamburger.buns[1] + ' with some luscious '
+             +  Hamburger.veg[1]+ ' on top. You have some ' +
+				Hamburger.cheese[1] +' cheese with ' + Hamburger.pattieNum[1]+ ' mighty'
+             + Hamburger.meatPattie[1] + ' pattie graciously complimented with some rather delightful'
+              + Hamburger.sauce[1] + ' sauce, and some beautiful ' + Hamburger.other[1] +'. ';
                     return output;
 			}
 
